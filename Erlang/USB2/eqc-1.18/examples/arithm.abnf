@@ -1,4 +1,0 @@
-
-E = lwsp Expr
-Expr = (E "-" wsp E) / (E "*" E) / "-" Expr / 1*digit
-
