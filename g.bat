@@ -66,4 +66,22 @@
 @git remote remove origin
 @git remote add origin https://github.com/StefanBjornander/Languages.git
 @git push origin master
+
+@cd "C:\Users\stefa\Documents\Check"
+@git init
+@git add .
+@git commit -m "Backup"
+@git branch -M master
+@git remote remove origin
+@git remote add origin https://github.com/StefanBjornander/Check.git
+@git push origin master
+
+@cd "C:\Users\stefa\Documents\Books"
+@git init
+@git add .
+@git commit -m "Backup"
+@git branch -M master
+@git remote remove origin
+@git remote add origin https://github.com/StefanBjornander/Books.git
+@git push origin master
 @pause
