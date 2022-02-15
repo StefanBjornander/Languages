@@ -7,6 +7,7 @@
 @git add .
 @git commit -m "Backup"
 @rem git branch -M master
+@git branch -M master
 @git remote remove origin
 @git remote add origin https://github.com/StefanBjornander/CCompiler8.git
 @git push -u origin master
@@ -14,6 +15,7 @@
 @cd "C:\Users\stefa\Documents\A A C_Compiler_CSharp_10"
 @git add .
 @git commit -m "Backup"
+@git branch -M master
 @git remote remove origin
 @git remote add origin https://github.com/StefanBjornander/CCompiler10.git
 @git push -u origin master
@@ -21,20 +23,20 @@
 @cd "C:\Users\stefa\Documents\A A C_Compiler_Assembler - CSharp 0 Assembly"
 @git add .
 @git commit -m "Backup"
+@git branch -M master
 @git remote remove origin
 @git remote add origin https://github.com/StefanBjornander/CCompiler_Assembly.git
 @git push -u origin master
 
 @cd "C:\Users\stefa\Documents\vagrant\homestead\code"
-@git init
 @git add .
 @git commit -m "Backup"
+@git branch -M master
 @git remote remove origin
 @git remote add origin https://github.com/StefanBjornander/Code.git
 @git push -u origin master
 
 @cd "C:\Users\Stefa\Documents\GenerateAssembly"
-@git init
 @git add .
 @git commit -m "Backup"
 @git branch -M master
@@ -43,7 +45,6 @@
 @git push -u origin master
 
 @cd "C:\Users\stefa\Documents\ObjectCodeTableGeneratorCSharp"
-@git init
 @git add .
 @git commit -m "Backup"
 @git branch -M master
@@ -52,7 +53,6 @@
 @git push -u origin master
 
 @cd "C:\Users\stefa\Documents\ObjectCodeTableGeneratorJava"
-@git init
 @git add .
 @git commit -m "Backup"
 @git branch -M master
@@ -61,7 +61,6 @@
 @git push -u origin master
 
 @cd "C:\Users\stefa\Documents\Languages"
-@git init
 @git add .
 @git commit -m "Backup"
 @git branch -M master
