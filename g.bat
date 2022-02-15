@@ -86,7 +86,6 @@
 
 @echo 10
 @cd "C:\Users\stefa\Documents\Books"
-@git init
 @git add .
 @git commit -m "Backup"
 @git branch -M master
