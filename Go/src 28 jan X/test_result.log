@@ -1,0 +1,100 @@
+--- FAIL: TestCompleteTestSuit (0.00s)
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 1
+        	            	actual  : 2
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Straight with Ace low should win against three of a kind" but returned lose
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 2
+        	            	actual  : 1
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Straight with Ace low should win against three of a kind (reverse hands)" but returned win
+
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 1
+        	            	actual  : 0
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Higher three of a kind should win on kicker" but returned tie
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 2
+        	            	actual  : 0
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Higher three of a kind should win on kicker (reverse hands)" but returned tie
+
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 1
+        	            	actual  : 2
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Higher pair hand should win" but returned lose
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 2
+        	            	actual  : 1
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Higher pair hand should win (reverse hands)" but returned win
+
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 1
+        	            	actual  : 0
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Same full house with higher kicker should win" but returned tie
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 2
+        	            	actual  : 0
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Same full house with higher kicker should win (reverse hands)" but returned tie
+
+
+
+
+
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 1
+        	            	actual  : 0
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Same four of a kind with higher kicker should win" but returned tie
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 2
+        	            	actual  : 0
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Same four of a kind with higher kicker should win (reverse hands)" but returned tie
+
+
+
+
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 1
+        	            	actual  : 2
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Straight flush should win against four of a kind" but returned lose
+    /Users/szilard/Downloads/stefan/main_test.go:688: 
+        	Error Trace:	main_test.go:688
+        	Error:      	Not equal: 
+        	            	expected: 2
+        	            	actual  : 1
+        	Test:       	TestCompleteTestSuit
+        	Messages:   	"Straight flush should win against four of a kind (reverse hands)" but returned win
+FAIL
+FAIL	poker	0.231s
+FAIL

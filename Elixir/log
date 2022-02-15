@@ -1,0 +1,37 @@
+"c:/Elixir/lib/iex/ebin/Elixir.IEx.CLI.beam"
+badfile
+"beam/beam_load.c(1287): Error loading module 'Elixir.IEx.CLI':\n  mandatory chunk of type 'Atom' not found\n\n"
+{supervisor_bridge,user_sup,['Argument__1']}
+<0.46.0>
+[]
+{exit,{undef,[{'Elixir.IEx.CLI',start,[],[]},{user_sup,start_user,3,[{file,"user_sup.erl"},{line,100}]},{user_sup,init,1,[{file,"user_sup.erl"},{line,49}]},{supervisor_bridge,init,1,[{file,"supervisor_bridge.erl"},{line,80}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+[kernel_sup,<0.34.0>]
+[]
+[<0.35.0>]
+[]
+true
+running
+987
+27
+150
+{local,kernel_sup}
+start_error
+{undef,[{'Elixir.IEx.CLI',start,[],[]},{user_sup,start_user,3,[{file,"user_sup.erl"},{line,100}]},{user_sup,init,1,[{file,"user_sup.erl"},{line,49}]},{supervisor_bridge,init,1,[{file,"supervisor_bridge.erl"},{line,80}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+[{pid,undefined},{id,user},{mfargs,{user_sup,start,[]}},{restart_type,temporary},{shutdown,2000},{child_type,supervisor}]
+{application_master,init,['Argument__1','Argument__2','Argument__3','Argument__4']}
+<0.33.0>
+[]
+{exit,{{shutdown,{failed_to_start_child,user,{undef,[{'Elixir.IEx.CLI',start,[],[]},{user_sup,start_user,3,[{file,"user_sup.erl"},{line,100}]},{user_sup,init,1,[{file,"user_sup.erl"},{line,49}]},{supervisor_bridge,init,1,[{file,"supervisor_bridge.erl"},{line,80}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{kernel,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+[<0.32.0>]
+[{'EXIT',<0.34.0>,normal}]
+[<0.32.0>,<0.31.0>]
+[]
+true
+running
+610
+27
+169
+kernel
+{{shutdown,{failed_to_start_child,user,{undef,[{'Elixir.IEx.CLI',start,[],[]},{user_sup,start_user,3,[{file,"user_sup.erl"},{line,100}]},{user_sup,init,1,[{file,"user_sup.erl"},{line,49}]},{supervisor_bridge,init,1,[{file,"supervisor_bridge.erl"},{line,80}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{kernel,start,[normal,[]]}}
+permanent
+{"Kernel pid terminated",application_controller,"{application_start_failure,kernel,{{shutdown,{failed_to_start_child,user,{undef,[{'Elixir.IEx.CLI',start,[],[]},{user_sup,start_user,3,[{file,\"user_sup.erl\"},{line,100}]},{user_sup,init,1,[{file,\"user_sup.erl\"},{line,49}]},{supervisor_bridge,init,1,[{file,\"supervisor_bridge.erl\"},{line,80}]},{gen_server,init_it,6,[{file,\"gen_server.erl\"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,\"proc_lib.erl\"},{line,247}]}]}}},{kernel,start,[normal,[]]}}}"}

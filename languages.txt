@@ -1,0 +1,83 @@
+C, C++, C# .Net, Java, JavaScript, PHP, MySQL, MongoDB
+
+X*OK: C:\Dart\dart-sdk\bin\dart.exe HelloWorld.dart
+X*OK: C:\erl-24.2.1\bin\erl helloworld.erl
+      C:\erl8.1\bin\erl helloworld.erl
+X*OK: C:\Elixir\bin\elixir HelloWorld.exs
+X*OK: C:\Go\bin\go run HelloWorld.go
+X*OK: C:\ghcup\bin\ghcup install ghc
+      C:\ghcup\ghc\8.10.7\bin\ghc ./HelloWorld.hs;./HelloWorld.exe
+
+      sudo apt-get -y install pkg-config libgmp-dev libssl-dev libtinfo-dev libsystemd-dev zlib1g-dev build-essential curl libgmp-dev libffi-dev libncurses-dev libtinfo5
+      curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+      ghcup upgrade
+      ghcup install cabal 3.4.0.0
+      ghcup set cabal 3.4.0.0
+      ghcup install ghc 8.10.4
+      ghcup set ghc 8.10.4
+      ghc ./HelloWorld
+
+      C:\ghcup\bin\ghcup ./HelloWorld.hs
+      C:\Haskell\ghc-9.0.2-x86_64-unknown-mingw32\bin\runghc ./HelloWorld.hs
+      C:\Haskell\ghc-9.0.2-x86_64-unknown-mingw32\bin\ghci
+      Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest https://www.haskell.org/ghcup/sh/bootstrap-haskell.ps1 -UseBasicParsing))) -ArgumentList $true
+X*OK: C:\Users\Stefa\AppData\Local\Programs\Julia-1.7.1\bin\julia HelloWorld.ja
+X*OK: C:\kotlinc\bin\kotlinc HelloWorld.kt -include-runtime -d HelloWorld.jar
+     C:\kotlinc\bin\kotlinc HelloWorld.kt -d HelloWorld.jar
+     C:\Java\jdk-17.0.2\bin\java -jar HelloWorld.jar
+X*OK: curl -R -O http://www.lua.org/ftp/lua-5.4.3.tar.gz
+      tar zxf lua-5.4.3.tar.gz
+      cd lua-5.4.3
+      make all test
+      lua-5.4.3/src/lua helloworld.lua
+X*OK: sudo apt-get install gnustep gnustep-devel
+      gcc `gnustep-config --objc-flags` -L /GNUstep/System/Library/Libraries HelloObjectiveC.m -o Main -lgnustep-base -lobjc
+      ./Main
+      GNUstep MSYS System
+      GNUstep Core
+      GNUstep Devel
+X*OK: C:\Python\python HelloWorld.py
+      C:\Windows\py.exe HelloWorld.py
+      C:\python-3.10.1-embed-amd64\py.exe HelloWorld.py
+X*OK: C:\Ruby27-x64\bin\ruby HelloWorld.rb
+X*OK: C:\Users\stefa\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin\rustc HelloWorld.rs;./HelloWorld.exe
+      C:\Users\Stefa\cargo\bin\rustc HelloWorld.rs;./HelloWorld.exe
+X*OK: https://www.scala-lang.org/download/scala3.html
+      sbt new scala/scala3.g8
+      cd scala-3-project-template
+      sbt run
+      
+      curl -fLo cs https://git.io/coursier-cli-"$(uname | tr LD ld)"
+      chmod +x cs
+      ./cs install cs
+      cs update cs
+      vi ~/.bashrc
+      export PATH="$PATH:/home/vagrant/.local/share/coursier/bin"
+      ./cs install scala3-compiler
+      ./cs install scala3
+      scala3 ./HelloWorld.sc
+
+      bitsadmin /transfer downloadCoursierCli https://git.io/coursier-cli "%cd%\coursier"
+      bitsadmin /transfer downloadCoursierBat https://git.io/coursier-bat "%cd%\coursier.bat"
+
+      C:\Users\Stefa\AppData\Local\Coursier\data\bin\scala HelloWorld.sc
+      bitsadmin /transfer cs-cli https://git.io/coursier-cli-windows-exe "%cd%\cs.exe"
+     .\cs --help
+X*OK: Smalltalk gst
+      sudo apt-get install gnu-smalltalk
+X*OK: C:\Swift\bin\swift.exe ./HelloWorld.sw
+X*OK: C:\v\v.exe HelloWorld.v;./HelloWorld.exe
+
+     Objective-C
+     sudo apt-get install gnustep
+     sudo apt-get install gnustep-devel
+     . /usr/share/GNUstep/Makefiles/GNUstep.sh
+     gcc `gnustep-config --objc-flags` -lgnustep-base helloworld.m -o helloworld
+     sudo apt-get install gobjc
+     ./helloworld
+
+gcc `gnustep-config --objc-flags` -L /GNUstep/System/Library/Libraries HelloObjectiveC.m -o Main -lgnustep-base -lobjc
+gcc `gnustep-config --objc-flags` -L /GNUstep/System/Library/Libraries Person.m -o Main -lgnustep-base -lobjc
+gcc `gnustep-config --objc-flags` -L /GNUstep/System/Library/Libraries Stack.m -o Main -lgnustep-base -lobjc
+gcc `gnustep-config --objc-flags` -L /GNUstep/System/Library/Libraries Queue.m -o Main -lgnustep-base -lobjc
+gcc `gnustep-config --objc-flags` -L /GNUstep/System/Library/Libraries Time.m -o Main -lgnustep-base -lobjc

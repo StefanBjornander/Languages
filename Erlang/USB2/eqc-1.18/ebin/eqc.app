@@ -1,0 +1,11 @@
+{application,eqc,
+             [{mod,{eqc,[]}},
+              {description,"Quviq QuickCheck"},
+              {vsn,"1.18"},
+              {modules,[eqc,eqc_catch,eqc_ct,eqc_dialogues,eqc_expiry,eqc_fsm,
+                        eqc_fsm_callbacks,eqc_gen,eqc_grammar,
+                        eqc_grammar_yecc,eqc_lazy_lists,eqc_memoize,
+                        eqc_messenger,eqc_random,eqc_sets,eqc_socket,
+                        eqc_statem,matrix]},
+              {registered,[eqc,eqc_logger,eqc_messenger,eqc_locked]},
+              {applications,[kernel,stdlib,inets]}]}.

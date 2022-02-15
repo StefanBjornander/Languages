@@ -1,0 +1,2 @@
+{packages,[]}.
+{modules,[pulse,pulse_instrument]}.

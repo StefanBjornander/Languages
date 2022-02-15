@@ -1,0 +1,14 @@
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\bin\Debug\net6.0\HelloCSharp.exe
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\bin\Debug\net6.0\HelloCSharp.deps.json
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\bin\Debug\net6.0\HelloCSharp.runtimeconfig.json
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\bin\Debug\net6.0\HelloCSharp.dll
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\bin\Debug\net6.0\ref\HelloCSharp.dll
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\bin\Debug\net6.0\HelloCSharp.pdb
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.AssemblyInfoInputs.cache
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.AssemblyInfo.cs
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.dll
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\obj\Debug\net6.0\ref\HelloCSharp.dll
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.pdb
+C:\Users\Stefan\Documents\Languages\CSharp\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.genruntimeconfig.cache

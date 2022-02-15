@@ -1,0 +1,2 @@
+C:\Users\Stefan\Documents\Go\src\bin\Debug\src.exe.config
+C:\Users\Stefan\Documents\Go\src\obj\Debug\src.csprojResolveAssemblyReference.cache
