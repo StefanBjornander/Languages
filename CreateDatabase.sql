@@ -4,7 +4,6 @@ USE vaxa;
 
 CREATE TABLE owner(orgnum VARCHAR(10), PRIMARY KEY (orgnum),
                    name VARCHAR(256), address VARCHAR(256), postal VARCHAR(256), phone VARCHAR(10));
-
 INSERT INTO owner(orgnum, name, address, postal, phone)
             VALUES("951224", "The Alpha Company", "1 Main Street", "64542 Strängnäs", "0123456789"),
                   ("940501", "The Bravo Company", "2 Main Street", "64542 Strängnäs","0234567890"),
@@ -16,29 +15,25 @@ INSERT INTO owner(orgnum, name, address, postal, phone)
                   ("400617", "The Hotel Company", "8 Main Street", "64542 Strängnäs", "0890123467"),
                   ("251227", "The India Company", "9 Main Street", "64542 Strängnäs", "0901234678"),
                   ("330306", "The Juliet Company", "10 Main Street", "64542 Strängnäs", "0012346789");
-
 SELECT * FROM owner ORDER BY name;
 
 CREATE TABLE farm(prodnum VARCHAR(8), PRIMARY KEY (prodnum),
                   name VARCHAR(256), address VARCHAR(256), postal VARCHAR(256), phone VARCHAR(10));
-
 INSERT INTO farm(prodnum, name, address, postal, phone)
-            VALUES("95122491", "The Alpha Farm", "1 Main Street", "64542 Strängnäs", "0123456789"),
-                  ("94050167", "The Bravo Farm", "2 Main Street", "64542 Strängnäs","0234567890"),
-                  ("94122625", "The Charlie Farm", "3 Main Street", "64542 Strängnäs", "0345678901"),
-                  ("62122037", "The Delta Farm", "4 Main Street", "64542 Strängnäs", "0456789012"),
-                  ("87061480", "The Echo Farm", "5 Main Street", "64542 Strängnäs", "0567890123"),
-                  ("11031386", "The Foxtrot Farm", "6 Main Street", "64542 Strängnäs", "0678901234"),
-                  ("28091449", "The Golf Farm", "7 Main Street", "64542 Strängnäs","0789012345"),
-                  ("40061701", "The Hotel Farm", "8 Main Street", "64542 Strängnäs", "0890123467"),
-                  ("25122708", "The India Farm", "9 Main Street", "64542 Strängnäs", "0901234678"),
-                  ("33030601", "The Juliet Farm", "10 Main Street", "64542 Strängnäs", "0012346789");
-
+            VALUES("95122491", "The Kilo Farm", "1 Main Street", "64542 Strängnäs", "0123456789"),
+                  ("94050167", "The Lime Farm", "2 Main Street", "64542 Strängnäs","0234567890"),
+                  ("94122625", "The Mike Farm", "3 Main Street", "64542 Strängnäs", "0345678901"),
+                  ("62122037", "The November Farm", "4 Main Street", "64542 Strängnäs", "0456789012"),
+                  ("87061480", "The Oscar Farm", "5 Main Street", "64542 Strängnäs", "0567890123"),
+                  ("11031386", "The Papa Farm", "6 Main Street", "64542 Strängnäs", "0678901234"),
+                  ("28091449", "The Quebec Farm", "7 Main Street", "64542 Strängnäs","0789012345"),
+                  ("40061701", "The Romeo Farm", "8 Main Street", "64542 Strängnäs", "0890123467"),
+                  ("25122708", "The Sierra Farm", "9 Main Street", "64542 Strängnäs", "0901234678"),
+                  ("33030601", "The Tango Farm", "10 Main Street", "64542 Strängnäs", "0012346789");
 SELECT * FROM farm ORDER BY name;
 
 CREATE TABLE ownership(orgnum VARCHAR(6), FOREIGN KEY (orgnum) REFERENCES owner(orgnum),
                        prodnum VARCHAR(8), FOREIGN KEY (prodnum) REFERENCES farm(prodnum));
-
 INSERT INTO ownership(orgnum, prodnum)
             VALUES("951224", "95122491"),
                   ("951224", "94050167"),
@@ -46,8 +41,9 @@ INSERT INTO ownership(orgnum, prodnum)
                   ("941226", "94122625"),
                   ("621220", "62122037"),
                   ("870614", "87061480");
-
-SELECT * FROM ownership;
+SELECT DISTINCT owner.name AS "owner", farm.name AS "farm" FROM ownership
+  INNER JOIN owner ON ownership.orgnum = owner.orgnum
+  INNER JOIN farm ON ownership.prodnum = farm.prodnum;
 
 CREATE TABLE kind(kindid INT AUTO_INCREMENT, PRIMARY KEY (kindid), name VARCHAR(10));
 INSERT INTO kind(name) VALUES("Cow"),("Bull"),("Calf"),("Heifer");
@@ -61,6 +57,5 @@ INSERT INTO animal(animalid, kindid, name)
                   ("9405016750", (SELECT kindid FROM kind WHERE name = "Calf"), "Junior"),
                   ("9412262587", (SELECT kindid FROM kind WHERE name = "Bull"), "Jack"),
                   ("6212203738", (SELECT kindid FROM kind WHERE name = "Heifer"), "Flower");
-
 SELECT animal.animalid, kind.name AS "kind", animal.name FROM animal
 INNER JOIN kind ON animal.kindid = kind.kindid;
