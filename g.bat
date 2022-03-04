@@ -23,6 +23,7 @@
 
 @echo 3
 @cd "C:\Users\stefa\Documents\A A C_Compiler_CSharp_8_Assembly\C_Compiler_CSharp_8_Assembly"
+@git init
 @git add .
 @git commit -m "Backup"
 @git branch -M master
