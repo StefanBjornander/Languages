@@ -22,12 +22,12 @@
 @git push origin master
 
 @echo 3
-@cd "C:\Users\stefa\Documents\A A C_Compiler_Assembler - CSharp 0 Assembly"
+@cd "C:\Users\stefa\Documents\A A C_Compiler_CSharp_8_Assembly\C_Compiler_CSharp_8_Assembly"
 @git add .
 @git commit -m "Backup"
 @git branch -M master
 @git remote remove origin
-@git remote add origin https://github.com/StefanBjornander/CCompiler_Assembly.git
+@git remote add origin https://github.com/StefanBjornander/CCompiler8_Assembly.git
 @git push origin master
 
 @echo 4
