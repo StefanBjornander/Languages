@@ -93,3 +93,13 @@
 @git remote add origin https://github.com/StefanBjornander/Books.git
 @git push origin master
 @pause
+
+@echo 11
+@cd "C:\xampp\htdocs"
+@git add .
+@git commit -m "Backup"
+@git branch -M master
+@git remote remove origin
+@git remote add origin https://github.com/StefanBjornander/Vaxa.git
+@git push origin master
+@pause
