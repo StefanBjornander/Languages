@@ -99,6 +99,6 @@
 @git commit -m "Backup"
 @git branch -M master
 @git remote remove origin
-@git remote add origin https://github.com/StefanBjornander/Vaxa.git
+@git remote add origin https://github.com/StefanBjornander/Animal.git
 @git push origin master
 @pause
