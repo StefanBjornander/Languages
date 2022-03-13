@@ -1,0 +1,21 @@
+<html>
+<head>
+  <script>
+  function addPicture(id){
+    var iframe = document.createElement('iframe');
+    iframe.src = '0' + id + 'd.pdf';
+    iframe.allowtransparency = true;
+    //iframe.style = "background: #FFFFFF;";
+    iframe.style.background = 'white';
+    document.body.appendChild(iframe);
+  }
+  </script>
+</head>
+<body>
+<h1>Hello World!</h1>
+
+<script>
+  addPicture(1);
+</script>
+</body>
+</html>

@@ -101,4 +101,15 @@
 @git remote remove origin
 @git remote add origin https://github.com/StefanBjornander/Animal.git
 @git push origin master
+
+@echo 12
+@cd "C:\Users\stefa\Documents\Languages\WeatherAngular"
+@git init
+echo "# Weather" >> README.md
+@git add .
+@git commit -m "Backup"
+@git branch -M master
+@git remote remove origin
+@git remote add origin https://github.com/StefanBjornander/Weather.git
+@git push origin master
 @pause

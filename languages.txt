@@ -5,7 +5,7 @@ X*OK: C:\erl-24.2.1\bin\erl helloworld.erl
       C:\erl8.1\bin\erl helloworld.erl
 X*OK: C:\Elixir\bin\elixir HelloWorld.exs
 X*OK: C:\Go\bin\go run HelloWorld.go
-X*OK: C:\ghcup\bin\ghcup install ghc
+XXXX*OK: C:\ghcup\bin\ghcup install ghc
       C:\ghcup\ghc\8.10.7\bin\ghc ./HelloWorld.hs;./HelloWorld.exe
 
       sudo apt-get -y install pkg-config libgmp-dev libssl-dev libtinfo-dev libsystemd-dev zlib1g-dev build-essential curl libgmp-dev libffi-dev libncurses-dev libtinfo5
