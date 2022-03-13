@@ -104,8 +104,6 @@
 
 @echo 12
 @cd "C:\Users\stefa\Documents\Languages\WeatherAngular"
-@git init
-echo "# Weather" >> README.md
 @git add .
 @git commit -m "Backup"
 @git branch -M master
