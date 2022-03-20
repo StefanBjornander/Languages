@@ -112,7 +112,6 @@
 @git push origin master
 
 @cd "C:\Users\stefa\Documents\CSharpToJava"
-@git init
 @git add .
 @git commit -m "Backup"
 @git branch -M master
