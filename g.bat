@@ -103,7 +103,7 @@
 @git push origin master
 
 @echo 12
-@cd "C:\Users\stefa\Documents\WeatherAngular"
+@cd "C:\Users\stefa\Documents\Languages\WeatherAngular"
 @git add .
 @git commit -m "Backup"
 @git branch -M master
