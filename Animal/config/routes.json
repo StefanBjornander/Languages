@@ -1,0 +1,162 @@
+{
+  "": {
+    "controller": "MainMenu",
+    "method": "mainMenu"
+  },
+  "ownerList": {
+    "controller": "Owner",
+    "method": "ownerList"
+  },
+  "ownerAdd": {
+    "controller": "Owner",
+    "method": "ownerAdd"
+  },
+  "ownerAdded": {
+    "controller": "Owner",
+    "method": "ownerAdded"
+  },
+  "ownerEdit/:id/:name/:address/:postal/:phone": {
+    "controller": "Owner",
+    "method": "ownerEdit",
+    "params": {
+      "id": "string",
+      "name": "string",
+      "address": "string",
+      "postal": "string",
+      "phone": "string"
+    }
+  },
+  "ownerEdited": {
+    "controller": "Owner",
+    "method": "ownerEdited"
+  },
+  "ownerDeleted/:id/:name": {
+    "controller": "Owner",
+    "method": "ownerDeleted",
+    "params": {
+      "id": "string",
+      "name": "string"
+    }
+  },
+  "ownerAddFarm/:id/:name": {
+    "controller": "Owner",
+    "method": "ownerAddFarm",
+    "params": {
+      "id": "string",
+      "name": "string"
+    }
+  },
+  "ownerAddedFarm/:ownerId/:ownerName": {
+    "controller": "Owner",
+    "method": "ownerAddedFarm",
+    "params": {
+      "ownerId": "string",
+      "ownerName": "string"
+    }
+  },
+  "ownerRemovedFarm/:ownerId/:ownerName/:farmId/:farmName": {
+    "controller": "Owner",
+    "method": "ownerRemovedFarm",
+    "params": {
+      "ownerId": "string",
+      "ownerName": "string",
+      "farmId": "string",
+      "farmName": "string"
+    }
+  },
+  "farmList": {
+    "controller": "Farm",
+    "method": "farmList"
+  },
+  "farmAdd": {
+    "controller": "Farm",
+    "method": "farmAdd"
+  },
+  "farmAdded": {
+    "controller": "Farm",
+    "method": "farmAdded"
+  },
+  "farmEdit/:id/:name/:address/:postal/:phone": {
+    "controller": "Farm",
+    "method": "farmEdit",
+    "params": {
+      "id": "string",
+      "name": "string",
+      "address": "string",
+      "postal": "string",
+      "phone": "string"
+    }
+  },
+  "farmEdited": {
+    "controller": "Farm",
+    "method": "farmEdited"
+  },
+  "farmDeleted/:id/:name": {
+    "controller": "Farm",
+    "method": "farmDeleted",
+    "params": {
+      "id": "string",
+      "name": "string"
+    }
+  },
+  "farmAddOwner/:id/:name": {
+    "controller": "Farm",
+    "method": "farmAddOwner",
+    "params": {
+      "id": "string",
+      "name": "string"
+    }
+  },
+  "farmAddedOwner/:farmId/:farmName": {
+    "controller": "Farm",
+    "method": "farmAddedOwner",
+    "params": {
+      "farmId": "string",
+      "farmName": "string"
+    }
+  },
+  "farmRemovedOwner/:farmId/:farmName/:ownerId/:ownerName": {
+    "controller": "Farm",
+    "method": "farmRemovedOwner",
+    "params": {
+      "farmId": "string",
+      "farmName": "string",
+      "ownerId": "string",
+      "ownerName": "string"
+    }
+  },
+  "animalList": {
+    "controller": "Animal",
+    "method": "animalList"
+  },
+  "animalAdd": {
+    "controller": "Animal",
+    "method": "animalAdd"
+  },
+  "animalAdded": {
+    "controller": "Animal",
+    "method": "animalAdded"
+  },
+  "animalEdit/:animalId/:kindId/:name/:farmId": {
+    "controller": "Animal",
+    "method": "animalEdit",
+    "params": {
+      "animalId": "string",
+      "kindId": "string",
+      "name": "string",
+      "farmId": "string"
+    }
+  },
+  "animalEdited": {
+    "controller": "Animal",
+    "method": "animalEdited"
+  },
+  "animalDeleted/:id/:name": {
+    "controller": "Animal",
+    "method": "animalDelete",
+    "params": {
+      "id": "string",
+      "name": "string"
+    }
+  }
+}

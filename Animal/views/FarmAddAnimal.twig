@@ -1,0 +1,33 @@
+{% block farmAddAnimal %}
+  <table border="1">
+    <form method="post" action="/farmAddedAnimal">
+      <tr>
+        <td colspan="2" align="center"><h1>Add Animal</h1></td>
+      <tr>
+      <tr>
+        <td class="column">Animal:</td>
+        <td class="column">
+          <select id="animal" name="animal" style="width:100%">
+            <option hidden disabled selected value>-- Select a Kind --</option>
+            {% for animal in animalList %}
+              <option name="{{animal.id}}">{{animal.id}}&nbsp;{{animal.name}}</option>
+            {% endfor %}
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><input style="width:100%" type="submit" value="Save"></td>
+      </tr>
+    </form>
+
+    <tr>
+      <td colspan="2">
+        <form action="/farmList" method="post">
+          <input type="submit" style="width:100%" value="Cancel">
+        </form>  
+      </td>
+    </tr>
+  </table>
+    
+  <script src="Validate.js"></script>
+{% endblock %}

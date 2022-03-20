@@ -1,0 +1,30 @@
+{% block animalEdited %}
+  <h1>Animal Edited</h1>
+
+  <table border>
+    <tr>
+      <td class="column">Id:</td>
+      <td class="column">{{animalId}}</td>
+    </tr>
+    <tr>
+      <td class="column">Kind:</td>
+      <td class="column">{{kindName}}</td>
+    </tr>
+    <tr>
+      <td class="column">Name:</td>
+      <td class="column">{{name}}</td>
+    </tr>
+    <tr>
+      <td class="column">Farm:</td>
+      <td class="column">{{farmText}}</td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <form action="/animalList" method="post">
+          <input type="submit" style="width:100%" value="Animal List">
+        </form>  
+      </td>
+    </tr>
+  </table>
+{% endblock %}

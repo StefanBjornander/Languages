@@ -1,0 +1,32 @@
+{% block farmEdited %}
+  <table border>
+    <tr>
+      <td class="column">Id:</td>
+      <td class="column">{{id}}</td>
+    </tr>
+    <tr>
+      <td class="column">Name:</td>
+      <td class="column">{{name}}</td>
+    </tr>
+    <tr>
+      <td class="column">Address:</td>
+      <td class="column">{{address}}</td>
+    </tr>
+    <tr>
+      <td class="column">Postal:</td>
+      <td class="column">{{postal}}</td>
+    </tr>
+    <tr>
+      <td class="column">Phone:</td>
+      <td class="column">{{phone}}</td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <form action="/farmList" method="post">
+          <input type="submit" style="width:100%" value="Farms">
+        </form>  
+      </td>
+    </tr>
+  </table>
+{% endblock %}

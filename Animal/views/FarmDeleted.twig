@@ -1,0 +1,7 @@
+{% block farmDeleted %}
+  <h1>Farm Delete</h1>
+  <p>{{name}} has been deleted.
+  <form action="/farmList" method="post">
+    <input type="submit" value="Farm List">
+  </form>  
+{% endblock %}

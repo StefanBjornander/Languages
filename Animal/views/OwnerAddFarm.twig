@@ -1,0 +1,36 @@
+{% block ownerAddFarm %}
+  <table border="1">
+    <form method="post" action="/ownerAddedFarm/{{id}}/{{name}}"
+          onsubmit="return validateOwner(10);">
+      <tr>
+        <td colspan="2" align="center"><h1>Add Form<br>to<br>{{name}}</h1></td>
+      <tr>
+
+      <tr>
+        <td class="column">Farm:</td>
+        <td class="column">
+          <select id="farm" name="farm" style="width:100%">
+            <option hidden disabled selected value>-- Select a Farm --</option>
+            {% for farm in noFarmList %}
+              <option name="{{farm.id}}">{{farm.id}}&nbsp;{{farm.name}}</option>
+            {% endfor %}
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2"><input style="width:100%" type="submit" value="Save"></td>
+      </tr>
+    </form>
+
+    <tr>
+      <td colspan="2">
+        <form action="/ownerList" method="post">
+          <input type="submit" style="width:100%" value="Cancel">
+        </form>  
+      </td>
+    </tr>
+  </table>
+    
+  <script src="ValidateOwner.js"></script>
+{% endblock %}

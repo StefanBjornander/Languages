@@ -1,0 +1,7 @@
+{% block ownerFarmRemoved %}
+  <h1>Owner Farm Removed</h1>
+  <p>{{farmName}} has been removed from {{ownerName}}.
+  <form action="/ownerList" method="post">
+    <input type="submit" value="Owner List">
+  </form>  
+{% endblock %}

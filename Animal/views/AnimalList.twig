@@ -1,0 +1,54 @@
+{% block animalList %}
+  <table border>
+    <tr>
+      <td align="center" colspan="8"><h1>Animals</h1></td>
+    </tr>
+    
+    <tr>
+      <td colspan="8">
+        <form action="/" method="post">
+          <input type="submit" style="width:100%" value="Main Menu">
+       </form>  
+      </td>
+    </tr>
+
+    <tr>
+      <th align="left" valign="bottom" style="width:10%">Id</th>
+      <th align="left" valign="bottom" style="width:10%">Kind</th>
+      <th align="left" valign="bottom" style="width:10%">Name</th>
+      <th align="left" valign="bottom" style="width:10%">Animal</th>
+      <th align="left" valign="bottom" style="width:10%"></th>
+      <th align="left" valign="bottom" style="width:10%"></th>
+    </tr>
+
+    {% for animal in animalList %}
+      <tr>
+        <td align="left" valign="top">{{animal.id}}</td>
+        <td align="left" valign="top">{{animal.kindName}}</td>
+        <td align="left" valign="top">{{animal.name}}</td>
+        <td align="left" valign="top">{{animal.farmId}}<br>{{animal.farmName}}</td>
+
+        <td align="left" valign="top" style="width:10%">
+          <form method="post" action="/animalEdit/{{animal.id}}/{{animal.kindId}}/{{animal.name}}/{{animal.farmId}}">
+            <input type="submit" style="width:100%" value="Edit">
+          </form>
+        </td>
+
+        <td align="left" valign="top" style="width:10%">
+          <form method="post" action="/animalDeleted/{{animal.id}}/{{animal.name}}"
+                onsubmit="return confirm('Are you sure you want to delete&nbsp;{{animal.name}}?')">
+            <input type="submit" style="width:100%" value="Delete">
+          </form>
+        </td>
+      </tr>
+    {% endfor %}
+
+    <tr>
+      <td align="left" valign="top" colspan="8">
+        <form action="/animalAdd" method="post">
+          <input type="submit" style="width:100%" value="Add Animal">
+       </form>  
+      </td>
+    </tr>
+  </table>
+{% endblock %}

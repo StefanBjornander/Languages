@@ -1,0 +1,27 @@
+{% block mainMenu %}
+  <table border="1">
+    <tr>
+      <td colspan="5" align="center">
+        <h1>Animal</h1>
+      </td>
+    </tr>
+    
+    <tr>
+      <td class="column" style="width:20%">
+        <form action="/ownerList" method="post">
+          <input type="submit" style="width:100%" style="width:100%" value="Owners">
+        </form>  
+      </td>
+      <td class="column" style="width:20%">
+        <form action="/farmList" method="post">
+          <input type="submit" style="width:100%" style="width:100%" value="Farms">
+        </form>  
+      </td>
+      <td class="column" style="width:20%">
+        <form action="/animalList" method="post">
+          <input type="submit" style="width:100%" style="width:100%" value="Animals">
+        </form>  
+      </td>
+    </tr>
+  </table>
+{% endblock %}

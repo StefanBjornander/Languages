@@ -1,0 +1,103 @@
+{% block animalAdd %}
+  <table border="1">
+    <form method="post" action="/animalAdded" onsubmit="return validate(10);">
+      <tr>
+        <td colspan="2" align="center"><h1>Add Animal</h1></td>
+      <tr>
+      <tr>
+        <td class="column">Id:</td>
+        <td class="column"><input id="id" type="text" name="id"
+                                  autofocus="autofocus" value="{{id}}"></td>
+      </tr>
+
+      <tr>
+        <td class="column">Kind:</td>
+        <td class="column">
+          <select id="kind" name="kind" style="width:100%">
+            <option hidden disabled selected value>-- Select a Kind --</option>
+            {% for kind in kindList %}
+              <option name="{{kind.id}}">{{kind.name}}</option>
+            {% endfor %}
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="column">Name:</td>
+        <td class="column"><input id="name" type="text" name="name" value="{{name}}"></td>
+      </tr>
+
+      <tr>
+        <td class="column">Farm:</td>
+        <td class="column">
+          <select id="farm" name="farm" style="width:100%">
+            <option hidden disabled selected value>-- Select a Farm --</option>
+            {% for farm in farmList %}
+              <option name="{{farm.id}}">{{farm.id}}&nbsp;{{farm.name}}</option>
+            {% endfor %}
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2"><input style="width:100%" type="submit" value="Save"></td>
+      </tr>
+    </form>
+
+    <tr>
+      <td colspan="2">
+        <form action="/animalList" method="post">
+          <input type="submit" style="width:100%" value="Cancel">
+        </form>  
+      </td>
+    </tr>
+  </table>
+
+  <script>
+    function validate(length) {
+      let result = checkId(document.getElementById("id").value, length);
+      result += checkKind(document.getElementById("kind").value);
+      result += checkName(document.getElementById("name").value);
+      result += checkFarm(document.getElementById("farm").value);
+
+      if (result.length > 0) {
+        alert(result);
+        return false;
+      }
+
+      return true;
+    }
+
+    function checkId(id, length) {
+      if ((id.length !== length) || !id.match(/^[0-9]+$/)) {
+        return "The identity number must hold 10 digits.\n";
+      }
+
+      return "";
+    }
+
+    function checkKind(kind) {
+      if (kind.length == 0) {
+        return "You have to select a kind.\n";
+      }
+
+      return "";
+    }
+
+    function checkName(name) {
+      if (name.length == 0) {
+        return "You have to input a name.\n";
+      }
+
+      return "";
+    }
+
+    function checkFarm(farm) {
+      if (farm.length == 0) {
+        return "You have to select a farm.\n";
+      }
+
+      return "";
+    }
+  </script>
+{% endblock %}

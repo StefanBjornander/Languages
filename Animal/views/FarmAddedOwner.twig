@@ -1,0 +1,7 @@
+{% block farmAddedOwner %}
+  <h1>Owner Added Farm</h1>
+  <p>{{ownerName}} has been added as owner to&nbsp;{{farmName}}.
+  <form action="/farmList" method="post">
+    <input type="submit" value="Owner List">
+  </form>  
+{% endblock %}

@@ -1,0 +1,87 @@
+{% block ownerAdd %}
+  <table border="1">
+    <form method="post" action="/ownerAdded"
+          onsubmit="return validate(6);>
+      <tr>
+        <td colspan="2" align="center"><h1>Add Owner</h1></td>
+      <tr>
+      <tr>
+        <td class="column">Id:</td>
+        <td class="column"><input id="id" type="text" name="id"
+                                  autofocus="autofocus" value="{{id}}"></td>
+      </tr>
+      <tr>
+        <td class="column">Name:</td>
+        <td class="column"><input id="name" type="text" name="name" value="{{name}}"></td>
+      </tr>
+      <tr>
+        <td class="column">Address:</td>
+        <td class="column"><input id="address" type="text" name="address" value="{{address}}"></td>
+      </tr>
+      <tr>
+        <td class="column">Postal:</td>
+        <td class="column"><input id="postal" type="text" name="postal" value="{{postal}}"></td>
+      </tr>
+      <tr>
+        <td class="column">Phone:</td>
+        <td class="column"><input id="phone" type="text" name="phone" value="{{phone}}"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input style="width:100%" type="submit" value="Save"></td>
+      </tr>
+    </form>
+
+    <tr>
+      <td colspan="2">
+        <form action="/ownerList" method="post">
+          <input type="submit" style="width:100%" value="Cancel">
+        </form>  
+      </td>
+    </tr>
+  </table>
+
+  <script>
+    function validate(length) {
+      let result = checkId(document.getElementById("id").value, length);
+/*      result += checkInput("name", document.getElementById("name").value);
+      result += checkInput("address", document.getElementById("address").value);
+      result += checkDigits("postal", document.getElementById("postal").value);
+      result += checkDigits("phone", document.getElementById("phone").value);*/
+
+      if (result.length > 0) {
+        alert(result);
+        return false;
+      }
+
+      return true;
+    }
+
+    function checkId(id, length) {
+      if ((id.length !== length) || !id.match(/^[0-9]+$/)) {
+        return "The identity number must hold " + length + " digits.\n";
+      }
+
+      return "";
+    }
+
+/*    function checkInput(name, text) {
+      if (text.length == 0) {
+        return "The " + name + " must not be empty.\n";
+      }
+
+      return "";
+    }
+
+    function checkDigits(name, text) {
+      if (text.length == 0) {
+        return "The " + name + " must not be empty.\n";
+      }
+
+      if (!text.match(/^[0-9]+$/)) {
+        return "The " + name + " must hold digits.\n";
+      }
+
+      return "";
+    }*/
+  </script>
+{% endblock %}

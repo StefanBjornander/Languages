@@ -1,0 +1,120 @@
+{% block farmList %}
+  <table border>
+    <tr>
+      <td align="center" colspan="9"><h1>Farm List</h1></td>
+    </tr>
+    
+    <tr>
+      <td colspan="9">
+        <form action="/" method="post">
+          <input type="submit" style="width:100%" value="Main Menu">
+       </form>  
+      </td>
+    </tr>
+
+    <tr>
+      <th align="left" valign="bottom" style="width:10%">Id</th>
+      <th align="left" valign="bottom" style="width:10%">Name</th>
+      <th align="left" valign="bottom" style="width:10%">Address</th>
+      <th align="left" valign="bottom" style="width:10%">Postal Address</th>
+      <th align="left" valign="bottom" style="width:10%">Phone Number</th>
+      <th align="left" valign="bottom" style="width:10%"></th>
+      <th align="left" valign="bottom" style="width:10%"></th>
+      <th align="left" valign="bottom" style="width:10%">Owner list</th>
+      <th align="left" valign="bottom" style="width:10%">Animal List</th>
+    </tr>
+
+    {% for farm in farmList %}
+      <tr>
+        <td align="left" valign="top">{{farm.id}}</td>
+        <td align="left" valign="top">{{farm.name}}</td>
+        <td align="left" valign="top">{{farm.address}}</td>
+        <td align="left" valign="top">{{farm.postal}}</td>
+        <td align="left" valign="top">{{farm.phone}}</td>
+
+        <td align="left" valign="top" style="width:10%">
+          <form method="post" action="/farmEdit/{{farm.id}}/{{farm.name}}/{{farm.address}}/{{farm.postal}}/{{farm.phone}}">
+            <input type="submit" style="width:100%" value="Edit">
+          </form>
+        </td>
+
+        <td align="left" valign="top" style="width:10%">
+          <form method="post" action="/farmDeleted/{{farm.id}}/{{farm.name}}"
+                onsubmit="return confirm('Are you sure you want to delete&nbsp;{{farm.name}}?')">
+            {% if (farm.animalCount == 0) and (farm.ownerCount > 1) %}
+              <input type="submit" style="width:100%" value="Delete">
+            {% else %}
+              <input disabled type="submit" style="width:100%" value="Delete">
+            {% endif %}
+          </form>
+        </td>
+
+        <td align="left" valign="top">
+          {% if farm.ownerCount > 0 %}
+            <table border>
+              <tr>
+                <td colspan="2" align="left" valign="top" style="width:10%">
+                  <form method="post" action="/farmAddOwner/{{farm.id}}/{{farm.name}}">
+                    <input type="submit" style="width:100%" value="Add Owner">
+                  </form>
+                </td>
+              </tr>
+
+              {% for owner in farm.ownerList %}
+                <tr>
+                  <td align="left" valign="top">{{owner.id}}<br>{{owner.name}}</td>
+
+                  <td align="left" valign="top" style="width:10%">
+                    <form method="post" action="/farmRemovedOwner/{{farm.id}}/{{farm.name}}/{{owner.id}}/{{owner.name}}"
+                          onsubmit="return confirm('Are you sure you want to remove&nbsp;{{owner.name}}&nbsp;from&nbsp;{{farm.name}}?')">
+                      {% if farm.ownerCount > 1 %}
+                        <input type="submit" style="width:100%" value="Remove">
+                      {% else %}
+                        <input disabled type="submit" style="width:100%" value="Remove">
+                      {% endif %}
+                    </form>
+                  </td>
+                </tr>
+              {% endfor %}
+            </table>
+          {% else %}
+            <form method="post" action="/farmAddOwner/{{farm.id}}/{{farm.name}}">
+              <input type="submit" style="width:100%" value="Add Owner">
+            </form>
+          {% endif %}
+        </td>
+
+        <td align="left" valign="top">
+          {% if farm.animalCount > 0 %}
+            <table border>
+              {% for animal in farm.animalList %}
+                <tr>
+                  <tr>
+                    <td align="left" valign="top">{{animal.id}}<br>{{animal.kind}}&nbsp;{{animal.name}}</td>
+
+                    <!--<td align="left" valign="top" style="width:10%">
+                      <form method="post" action="/animalRemove/{{animal.id}}/{{animal.name}}/{{animal.address}}/{{animal.postal}}/{{animal.phone}}"
+                            onsubmit="return confirm('Are you sure you want to remove&nbsp;{{animal.name}}&nbsp;from&nbsp;{{farm.name}}?')">
+                        <input type="submit" style="width:100%" value="Remove">
+                      </form>
+                    </td>-->
+                </tr>
+              {% endfor %}
+            </table>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+
+    <tr>
+      <td align="left" valign="top" colspan="9">
+        <form action="/farmAdd" method="post">
+          <input type="submit" style="width:100%" value="Add Farm">
+       </form>  
+      </td>
+    </tr>
+  </table>
+{% endblock %}
+
+<!--<tr style="border-collapse: collapse;">
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000">-->

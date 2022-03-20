@@ -1,0 +1,13 @@
+{% block ownerFarmRemoved %}
+  <h1>Owner Farm Removed</h1>
+
+  {% if ok %}
+    <p>{{farm.name}} has been removed from {{owner.name}}.
+  {% else %}
+    <p>{{farm.name}} cannot be removed from {{owner.name}} since it is its only owner.
+  {% endif %}
+
+  <form action="/ownerList" method="post">
+    <input type="submit" style="width:100%" value="Owner List">
+  </form>  
+{% endblock %}

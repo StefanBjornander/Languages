@@ -1,0 +1,7 @@
+{% block ownerDeleted %}
+  <h1>Owner Delete</h1>
+  <p>{{name}} has been deleted.
+  <form action="/ownerList" method="post">
+    <input type="submit" value="Owner List">
+  </form>  
+{% endblock %}

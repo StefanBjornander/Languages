@@ -1,0 +1,96 @@
+{% block ownerList %}
+  <table border>
+    <tr>
+      <td align="center" colspan="8"><h1>Owner List</h1></td>
+    </tr>
+    
+    <tr>
+      <td colspan="8">
+        <form action="/" method="post">
+          <input type="submit" style="width:100%" value="Main Menu">
+       </form>  
+      </td>
+    </tr>
+
+    <tr>
+      <th align="left" valign="bottom" style="width:10%">Id</th>
+      <th align="left" valign="bottom" style="width:10%">Name</th>
+      <th align="left" valign="bottom" style="width:10%">Address</th>
+      <th align="left" valign="bottom" style="width:10%">Postal Address</th>
+      <th align="left" valign="bottom" style="width:10%">Phone Number</th>
+      <th align="left" valign="bottom" style="width:10%"></th>
+      <th align="left" valign="bottom" style="width:10%"></th>
+      <th align="left" valign="bottom" style="width:10%">Farm List</th>
+    </tr>
+
+    {% for owner in ownerList %}
+      <tr>
+        <td align="left" valign="top">{{owner.id}}</td>
+        <td align="left" valign="top">{{owner.name}}</td>
+        <td align="left" valign="top">{{owner.address}}</td>
+        <td align="left" valign="top">{{owner.postal}}</td>
+        <td align="left" valign="top">{{owner.phone}}</td>
+
+        <td align="left" valign="top" style="width:10%">
+          <form method="post" action="/ownerEdit/{{owner.id}}/{{owner.name}}/{{owner.address}}/{{owner.postal}}/{{owner.phone}}">
+            <input type="submit" style="width:100%" value="Edit">
+          </form>
+        </td>
+
+        <td align="left" valign="top" style="width:10%">
+          <form method="post" action="/ownerDeleted/{{owner.id}}/{{owner.name}}"
+                onsubmit="return confirm('Are you sure you want to delete&nbsp;{{owner.name}}?')">
+            {% if owner.oneOwner %}
+              <input disabled type="submit" style="width:100%" value="Delete">
+            {% else %}
+              <input type="submit" style="width:100%" value="Delete">
+            {% endif %}
+          </form>
+        </td>
+
+        <td align="left" valign="top">
+          {% if owner.farmCount > 0 %}
+            <table border>
+              <tr>
+                <td colspan="2" align="left" valign="top" style="width:10%">
+                  <form method="post" action="/ownerAddFarm/{{owner.id}}/{{owner.name}}">
+                    <input type="submit" style="width:100%" value="Add Farm">
+                  </form>
+                </td>
+              </tr>
+
+              {% for farm in owner.farmList %}
+                <tr>
+                  <td align="left" valign="top">{{farm.id}}<br>{{farm.name}}</td>
+
+                  <td align="left" valign="top" style="width:10%">
+                    <form method="post" action="/ownerRemovedFarm/{{owner.id}}/{{owner.name}}/{{farm.id}}/{{farm.name}}"
+                          onsubmit="return confirm('Are you sure you want to remove&nbsp;{{farm.name}}&nbsp;from&nbsp;{{owner.name}}?')">
+                      {% if farm.oneOwner %}
+                        <input disabled type="submit" style="width:100%" value="Remove">
+                      {% else %}
+                        <input type="submit" style="width:100%" value="Remove">
+                      {% endif %}
+                    </form>
+                  </td>
+                </tr>
+              {% endfor %}
+            </table>
+          {% else %}
+            <form method="post" action="/ownerAddFarm/{{owner.id}}/{{owner.name}}">
+              <input type="submit" style="width:100%" value="Add Farm">
+            </form>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+
+    <tr>
+      <td align="left" valign="top" colspan="8">
+        <form action="/ownerAdd" method="post">
+          <input type="submit" style="width:100%" value="Add Owner">
+       </form>  
+      </td>
+    </tr>
+  </table>
+{% endblock %}

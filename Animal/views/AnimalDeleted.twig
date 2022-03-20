@@ -1,0 +1,7 @@
+{% block animalDeleted %}
+  <h1>Animal Deleted</h1>
+  <p>{{name}} has been deleted.
+  <form action="/animalList" method="post">
+    <input type="submit" value="Animal List">
+  </form>  
+{% endblock %}
