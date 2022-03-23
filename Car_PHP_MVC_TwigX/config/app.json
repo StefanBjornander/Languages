@@ -1,9 +1,0 @@
-{
-  "db": {
-    "host": "127.0.0.1",
-    "database": "car_renter",
-    "user": "root",
-    "password": ""
-  },
-  "log": "/var/log/bookstore.log"
-}
