@@ -1,0 +1,38 @@
+<body>
+<!-- <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>-->
+
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js'
+    import { getFirestore, collection, getDocs } from 'https://www.gstatic.com/firebasejs/9.6.3/firebase-firestore.js'
+
+    var firebaseConfig = {
+      apiKey: "AIzaSyAWAbUh9MS6SdIrPuPRi6Zs4un-ShMphTk",
+      authDomain: "birdwing-cc771.firebaseapp.com",
+      databaseURL: "https://birdwing.firebaseio.com",
+      projectId: "birdwing-cc771",
+      storageBucket: "birdwing-cc771.appspot.com",
+      //messagingSenderId: "SENDER_ID",
+      //appId: "APP_ID",
+      // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
+      //measurementId: "G-MEASUREMENT_ID",
+    };
+
+    let db = getFirestore(initializeApp(firebaseConfig));
+
+    console.log("Users: ");
+    const querySnapshotUsers = await getDocs(collection(db, "users"));
+    querySnapshotUsers.forEach((doc) => {
+      console.log("  " + doc.get('name').first + " " + doc.get('name').last);
+      //console.log(doc.toString());
+      //console.log(`${doc.id} => ${doc}`);
+    });
+
+    console.log("Rides:");
+    const querySnapshotRides = await getDocs(collection(db, "rides"));
+    querySnapshotRides.forEach((doc) => {
+      console.log("  " + doc.get('from') + " => " + doc.get('destination'));
+      //console.log(`${doc.id} => ${doc.data()}`);
+    });
+  </script>
+</body>

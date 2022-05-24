@@ -1,0 +1,13 @@
+curl https://eo2ibz33isgxkm8.m.pipedream.net
+curl -X POST https://eo2ibz33isgxkm8.m.pipedream.net -d value1=Hello -d value2=REST
+
+curl -X POST https://eo2ibz33isgxkm8.m.pipedream.net -d {
+    "orderID":3,
+    "productID":2,
+    "quantity":4,
+    "orderValue":16.60,
+    "links": [
+        {"rel":"product","href":"https://adventure-works.com/customers/3", "action":"GET" },
+        {"rel":"product","href":"https://adventure-works.com/customers/3", "action":"PUT" }
+    ]
+}

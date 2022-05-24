@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "birdwing-cc771",
+    "cloudfunctions": "birdwing-cc771"
+  },
+  "targets": {}
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "196643043410",
+    "project_id": "birdwing-cc771",
+    "storage_bucket": "birdwing-cc771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196643043410:android:1ad42536702d374e7e478b",
+        "android_client_info": {
+          "package_name": "se.mektig.birdwing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196643043410-o864sni3ra3l373frjpv84l8i2qgb22c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "se.mektig.birdwing",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "196643043410-g24j9qc9o46fm86re5l4upbk75auq5ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWAbUh9MS6SdIrPuPRi6Zs4un-ShMphTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196643043410-g24j9qc9o46fm86re5l4upbk75auq5ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

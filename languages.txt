@@ -6,7 +6,7 @@ X*OK: C:\erl-24.2.1\bin\erl helloworld.erl
 X*OK: C:\Elixir\bin\elixir HelloWorld.exs
 X*OK: C:\Go\bin\go run HelloWorld.go
 XXXX*OK: C:\ghcup\bin\ghcup install ghc
-      C:\ghcup\ghc\8.10.7\bin\ghc ./HelloWorld.hs;./HelloWorld.exe
+      Haskell C:\ghcup\ghc\8.10.7\bin\ghc ./HelloWorld.hs;./HelloWorld.exe
 
       sudo apt-get -y install pkg-config libgmp-dev libssl-dev libtinfo-dev libsystemd-dev zlib1g-dev build-essential curl libgmp-dev libffi-dev libncurses-dev libtinfo5
       curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
@@ -23,8 +23,8 @@ XXXX*OK: C:\ghcup\bin\ghcup install ghc
       Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest https://www.haskell.org/ghcup/sh/bootstrap-haskell.ps1 -UseBasicParsing))) -ArgumentList $true
 X*OK: C:\Users\Stefa\AppData\Local\Programs\Julia-1.7.1\bin\julia HelloWorld.ja
 X*OK: C:\kotlinc\bin\kotlinc HelloWorld.kt -include-runtime -d HelloWorld.jar
-     C:\kotlinc\bin\kotlinc HelloWorld.kt -d HelloWorld.jar
-     C:\Java\jdk-17.0.2\bin\java -jar HelloWorld.jar
+      C:\kotlinc\bin\kotlinc HelloWorld.kt -d HelloWorld.jar
+      C:\Java\jdk-17.0.2\bin\java -jar HelloWorld.jar
 X*OK: curl -R -O http://www.lua.org/ftp/lua-5.4.3.tar.gz
       tar zxf lua-5.4.3.tar.gz
       cd lua-5.4.3
@@ -39,7 +39,8 @@ X*OK: sudo apt-get install gnustep gnustep-devel
 X*OK: C:\Python\python HelloWorld.py
       C:\Windows\py.exe HelloWorld.py
       C:\python-3.10.1-embed-amd64\py.exe HelloWorld.py
-X*OK: C:\Ruby27-x64\bin\ruby HelloWorld.rb
+X*OK: C:\Ruby31-x64\bin\ruby HelloWorld.rb
+      //C:\Ruby27-x64\bin\ruby HelloWorld.rb
 X*OK: C:\Users\stefa\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin\rustc HelloWorld.rs;./HelloWorld.exe
       C:\Users\Stefa\cargo\bin\rustc HelloWorld.rs;./HelloWorld.exe
 X*OK: https://www.scala-lang.org/download/scala3.html

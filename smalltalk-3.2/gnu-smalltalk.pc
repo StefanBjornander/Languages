@@ -1,0 +1,12 @@
+prefix = /usr/local
+exec_prefix = ${prefix}
+libdir = ${exec_prefix}/lib
+moduledir = ${pkglibdir}
+includedir = ${prefix}/include
+
+Name: gnu-smalltalk
+Description: GNU Smalltalk
+Version: 3.2
+Libs: -L${libdir} -lgst -lm 
+Cflags: -I${includedir}
+

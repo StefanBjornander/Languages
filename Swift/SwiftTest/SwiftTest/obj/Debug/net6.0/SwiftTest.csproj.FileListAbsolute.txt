@@ -1,0 +1,5 @@
+C:\Users\stefa\Documents\Languages\Swift\SwiftTest\SwiftTest\obj\Debug\net6.0\SwiftTest.csproj.AssemblyReference.cache
+C:\Users\stefa\Documents\Languages\Swift\SwiftTest\SwiftTest\obj\Debug\net6.0\SwiftTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\Languages\Swift\SwiftTest\SwiftTest\obj\Debug\net6.0\SwiftTest.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\Languages\Swift\SwiftTest\SwiftTest\obj\Debug\net6.0\SwiftTest.AssemblyInfo.cs
+C:\Users\stefa\Documents\Languages\Swift\SwiftTest\SwiftTest\obj\Debug\net6.0\SwiftTest.csproj.CoreCompileInputs.cache

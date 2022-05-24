@@ -1,0 +1,102 @@
+---
+title: Birdwing Progress Report (#1)
+date: '2022-03-31'
+tags: ['report', 'birdwing', 'android', 'poc']
+draft: false
+summary: The first report
+images: []
+layout: PostSimple
+canonicalUrl: report_22_03_30
+---
+
+# birdwing™ Proof of Concept
+
+<Image alt="birdwing" src="/static/images/twitter-card.png" width={351.25} height={123.5} />
+
+## Proof of Concept Progress
+
+We are according to current estimates `8%` done with `Proof of Concept`, here are our current targets:
+
+### Complete database
+
+- [x] The user needs to be able to add account information
+- [ ] The driver needs to be able to add cars
+- [ ] The driver needs to be able to add a ride to the app
+
+### Cloud functions
+
+- [x] Cloud Function login + Google login
+- [ ] Cloud function - if user changes name, update database
+- [ ] Cloud function - create thumbnail from user profile picture
+
+### Google maps
+
+- [ ] Google maps for searching locations (create ride, search ride))
+
+### Functionality
+
+- [ ] The passenger needs to be able to search for rides
+- [ ] The user needs a view to see statistics of their app use
+- [ ] The users needs to be able to receive notifications on events and/or changes in their active rides
+- [ ] The passengers need simple indicators of available seats while searching for a ride
+- [ ] The user needs (at the main view) to see active rides for the user
+
+## Features
+
+Our app is in it's early stages but the features so far is:
+
+- Login / Logout using `firebase auth` and `cloud functions`. Viable login methods is: Google and phone number with verification
+- Change update information on `firestore` including:
+  - Display name
+  - E-mail
+  - Phone number
+- Navigation using `react nagivation drawer` including (Home, Settings, My Profile, About)
+
+## Print screens
+
+<Image alt="phone" src="/static/images/2022-03-30/pic1.jpg" width={270} height={600} />
+<Image alt="phone" src="/static/images/2022-03-30/pic2.jpg" width={270} height={600} />
+<Image alt="phone" src="/static/images/2022-03-30/pic3.jpg" width={270} height={600} />
+<Image alt="phone" src="/static/images/2022-03-30/pic4.jpg" width={270} height={600} />
+
+## Completed cards from Scrum
+
+### Maximilian
+
+- [x] Splash screen
+
+- [x] implement tailwind react native
+
+- [x] Tailwind for profile page
+
+- [x] Update forms with 'tailwind' (create trip, login)
+
+- [x] The user needs to be able to login and register using their phone number
+
+- [x] Add animation on drawer open
+
+- [x] Drawer menu
+
+- [x] Readme
+
+### Henrik
+
+- [x] The user needs to be able to login and register using their phone number
+
+- [x] Dummy user profile
+
+- [x] Dummy settings page
+
+- [x] Dumb form for creating trip
+
+- [x] Change SMS title to "birdwing"
+
+- [x] Implement "reauthenticateWithPhoneNumber"
+
+- [x] User needs a landing page
+
+- [x] Cloud Function login + Google login
+
+## Final Thoughts
+
+For all current team members `React Native` & `Firebase/Firestore` is new territory, however we are past the first barrier and things are looking good!

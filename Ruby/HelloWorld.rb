@@ -1,1 +1,2 @@
-puts "Hello, Ruby!"
+print 'Hello, '
+puts "Ruby!"

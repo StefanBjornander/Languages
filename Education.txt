@@ -1,0 +1,320 @@
+ToDo
+  Programming Languages
+    Concurrency
+  Databaes
+    SQL
+    NoSQL
+  .Net
+  Fullstack
+    Backend
+      PHP
+      Laravel
+    Frontend
+      JavaScript
+        React
+        Angular
+  cloads
+    Google Cloud Platform
+    Amazon Web Services
+    Microsoft Azure
+  Dev Ops
+    GitHub
+    Kubernatics
+  Games
+    Unreal Engine
+
+Areas
+  Programming Languages
+    .Net
+    MacOS
+    Linux
+  Fullstack .Net App
+    HTML & CSS
+    PHP
+      Laravel
+    JavaScript
+      React
+      Angular
+  Databases
+    SQL MySQL
+    NoSQL
+  Cloud Services
+    Amazon web Services
+    Google Cloud
+    Microsoft Azure
+  Artificiell Intelligens
+    Machine Learning
+  Game Development
+    Mathematics and Physics
+    Implementation
+    Game Engines
+      Unreal engine
+  Security and Cryptography
+    Mathematics
+    Python
+  Embedded Systems
+    Embedded Linux
+    Rasberry Pi
+    AVR
+  Multicore, Parallellism, and Concurrency
+
+Smart pointers: Mastering C++ Programming, chapter 4
+
+Artificiell Intelligens
+  Millington I. (2019) AI for Games. 3rd ed. CRC Press. 1030 pages. $43.98
+  Russell S. & Norvig P. (2020) Artificial Intelligence: A Modern Approach. 4th ed. Pearson. 1136 pages. $54.99
+  Bourg D. M. & Seemann G. (2004) AI for Game Developers. O'Reilly Media. 498 pages. $25.43
+
+https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html
+
+C, C# .Net, C++, Python, Java, JavaScript, PHP, MySQL, MongoDB
+Angular, Bootstrap, Dart, Erlang, Go, Haskell, Julia, Kotlin, Lua, Objective-C, R, React, Ruby, Ruby on Rails, Rust, Scala, Smalltalk, Swift, V, Vue
+
+Compiler
+  Jeffery C. (2021) Build Your Own Programming Language. Packt Publishing. 494 pages. $32.39
+  Nacke K. (2021) Learn LLVM 12. Packt Publishing. 392 pages. $20.98
+  http://www.aosabook.org/en/llvm.html
+  https://llvm.org/pubs/2004-01-30-CGO-LLVM.pdf
+
+Articiell Intelligens and Machine Learning
+  Géron A. (2019) Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow. 2nd ed. O'Reilly Media. 856 pages. $29.54
+  Grus J. (2019) Data Science from Scratch. 2nd ed. O'Reilly Media. 408 pages. $13.20
+  Bruce P., Bruce A. & Gedeck P. (2020) Practical Statistics for Data Scientists. O'Reilly Media. 631 pages. $14.70
+
+Multicore
+  Barlas G. (2014) Multicore and GPU Programming. Morgan Kaufmann. 698 pages. $29.87
+  David Kirk D. & Hwu W. W. (2016) Programming Massively Parallel Processors. 3rd ed. 576 pagas. $18.82
+
+Game Physics
+  Bourg D. M. & Bywalec B. (2013) Physics for Game Developers. 2nd ed. O'Reilly Media. 580 pages. $11.12
+  Millington I. (2010) Game Physics Engine Development. 2nd ed. 552 pages. CRC Press. $20.69
+  Eberly D. H. (2010) Game Physics. 2nd ed. CRC Press. 964 pages. $26.84. Advanced. History.
+  Van Verth J. M. & Bishop L. M. (2015) Essential Mathematics for Games and Interactive Applications. 3rd ed. Packt Publishing. 624 pages. $49.74
+  Szauer G. (2017) Game Physics Cookbook. Packt Publishing. 803 pages. $33.73
+
+Games
+  Gregory J. (2021) Game Engine Architecture. 3rd ed. 1240 pages. $28.61
+  Victor G Brusca V. G. (2021) Introduction to Video Game Engine Development. Apress. 503 pages. $14.22
+  Jarred Capellman J. & Salin L. (2020) MonoGame Mastery. Apress. 358 pages. $12.00
+  Szauer G. (2020) Hands-On C++ Game Animation Programming. Packt Publishing. 483 pages. $16.15
+  Kosarevsky S. & Latypov L. (2021) 3D Graphics Rendering Cookbook. Pack Publishing. 670 pages. $25.53
+  Ericson C. (2004) Real-Time Collision Detection. CRC Press. 632 pages. $26.97
+  Akenine-Möller T., Haines E. & Hoffman M. (2018) Real-Time Rendering. 4th ed. A K Peters/CRC Press. 1198 pages. $29.57
+  Pharr M., Jakob W. & Humphreys G. (2016) Physically Based Rendering. 3rd ed. Morgan Kaufmann. 1266 pages. $87.44
+  Haines E. & Akenine-Möller T. (2019) Ray Tracing Gems. Apress. 651 pages. $0.00
+  Marrs A. & Shirley P, & Wald I. (2021) Ray Tracing Gems II. Apress. 914 pages. $0.00
+  Tremblay C. (2021) Mathematics for Game Developers. Course Technology PTR. 733 pages. $10.59
+  Lane M. (2017) Power-Up: Unlocking the Hidden Mathematics in Video Games. Princeton University Press. 264 pages. $10.59
+  Van Verth J. M.  & Bishop L. M. (2015) Essential Mathematics for Games and Interactive Applications. 3rd ed. 624 pages. $49.09
+
+Ahmad I. (2020) 40 Algorithms Every Programmer Should Know. Packt Publishing. 384 pages. $18.22
+Sunday D. (2021) Practical Geometry Algorithms: with C++ Code. self published with KDP. 193 pages. Kindle Unlimited
+Cohen M. X. (2021) Linear Algebra: Theory, Intuition, Code. Sincxpress BV. 589 pages. Kindle Unlimited
+Cooksey B. (2016) An Introduction to APIs. 72 pages. $0.00
+Friedl  J. E. F. (2006) Mastering Regular Expressions. 3rd ed. O'Reilly Media. 544 pages. $13.20
+
+Cloud
+  Amazon Web Services
+    Derry R. (2021). AWS: AMAZON WEB SERVICES: The Complete Guide From Beginners For Amazon Web Services. 143 pages. Kindle Unlimited.
+    Alongi R. (2019). AWS: The Most Complete Guide to Amazon Web Services from Beginner to Advanced Level. 215 pages. $4.23
+  Google Cloud
+    Madamanchi S. (2021). Google Cloud for DevOps Engineers. Packt Publishing. 482 pages. $20.98
+    Dantas V. (2021). Architecting Google Cloud Solutions. Packt Publishing. 472 pages. $30.52
+    Moreno S. (2021). Google Cloud Certified Professional Cloud Developer Exam Guide. 382 pages. $34.33
+  Microsoft Azure
+  Perkins B. & Panek W. (2020) Microsoft Azure Architect Technologies and Design Complete Study Guide. 739 pages. $45.30
+  Stromm H. (2020). Learn Microsoft Azure. Packt Publishing. 183 pages. Kindle Unlimited.
+
+Assembly
+  Lyashko A. (2017) Mastering Assembly Programming. Packt Publishing. 290 pages. $23.73
+  Smith S. (2021) RP2040 Assembly Language Programming. Apress. 344 pages. $11.64
+  Van Hoey J. (2019) Beginning x64 Assembly Programming. Apress. 438 pages. $9.31
+  Kusswurm D. (2018) Modern X86 Assembly Language Programming. 2nd ed. Apress. 1194 pages. $21.46
+
+  Smith S. (2020) Programming with 64-Bit ARM Assembly Language for Raspeberry Pi. Apress. 403 pages. $11.76
+  Naimi S. et al. (2021) ARM Assembly Language Programming with Raspberry Pi using GCC. 336 pages. $10.49
+  Smith S. (2019) Raspberry Pi Assembly Language Programming. Apress. 398 pages. $10.50
+  Molloy D. (2016) Exploring Raspberry Pi. Wiley. 720 pages. $21.64s
+  Zhirkov I. (2017) Low-Level Programming. Apress. 817 pages. $30.00
+
+  McManus S. & Cook M. (2021) Raspberry Pi For Dummies. 4th ed. 506 pages. $16.95
+  Nussey J. (2018) Arduino For Dummies. 2nd ed. 384 pages. $16.96
+  Knight S. (2018) Arduino for Beginners. Kindle Unlimited. 139 pages.
+
+Linux
+  Ward B. (2021) How Linux Works. 3rd ed. No Starch Press. 464 pages. $28.19
+  Shotts W. (2019) The Linux Command Line. 2nd ed. No Starch Press. 502 pages. $19.63
+  Ebrahim M. & Mallett A. (2018) Mastering Linux Shell Scripting. 2nd ed. Packt Publishing. 286 pages. $18.22
+
+Cryptography
+  Hoffstein, Pipher & Silverman (2014) Mathematical Cryptography. 2nd ed. 555 pages. Springer. $27.00
+  Aumasson J-P. (2017) Serious Cryptography. No Starch Press. 212 pages. $20.04
+  Buell D. (2021) Fundamentals of Cryptography. Springer. 296 pages. $12.94
+  Nielson S. J. & Monson C. K. (2019) Practical Cryptography in Python. Apress. 390 pages. $13.34
+  Bray S. W. (2020). Implementing Cryptography Using Python. Wiley. 290 pages. $27.68
+  Bowne S. (2018) Hands-On Cryptography with Python. Packt Publishing. 100 pages. $15.46
+  Nath A. (2018) Python Cryptography. 128 pages. Kindle Unlimited
+
+Security
+  Ozkaya E. (2019) Cybersecurity. Packt Publishing. 398 pages. $13.40
+  Grubb S. (2021) How Cybersecurity Really Works. 200 pages. $15.89
+  Diogenes Y. & Ozkaya E. (2019) Cybersecurity – Attack and Defense Strategies. 2nd ed. 636 pages. $18.22
+
+Machintosh
+  Buttfield-Addison P., Manning J. & Nugent T. (2014) Learning Cocoa with Objective-C. 4th ed. O'Reilly Media. 550 pages. $20.19
+  Neuburg M. (2021) iOS 15 Programming Fundamentals with Swift. O'Reilly Media. 788 pages. $39.00
+  Hoffman J. (2020) Mastering Swift 5.3. 6th ed. Packt Publishing. 418 pages. $16.15
+  Hodson R. (2014) Ry's Objective-C Tutorial. RyPress. 218 pages. $1.05
+  Hodson R. (2014) Ry's Cocoa Tutorial. RyPress. 631 pages. $10.59
+  Lee K. (2013) Pro Objective-C. Apress. $15.00
+
+Embedded Systems and Real-Time Systems
+  Embedded Systems
+    Ledin J. (2020) Modern Computer Architecture and Organization. 562 pages. $15.24
+    Vasquez F. & Simmonds C. (2021). Mastering Embedded Linux Programming. 3rd ed. Packt Publishing. 758 pages. $31.49
+    Jiménez M., Palomera R. & Couvertier I. (2013) Introduction to Embedded Systems. 672 pages. $26.70
+    Lacamera D. (2018). Embedded Systems Architecture. Packt Publishing. 326 pages. $23.73
+    Amos B. (2020) Hands-On RTOS with Microcontrollers. Packt Publishing. 977 pages. $20.98
+    Gay W. (2018). Beginning STM32. Apress. 533 pages. $17.64
+  Arduino
+    Sepehr Naimi S. & Naimi S. (2017). The AVR Microcontroller and Embedded Systems Using Assembly and C. 2nd ed. MicroDigitalEd.  630 pages. $16.43
+    Williams E. (2014) AVR Programming. Make Community. 474 pages. $10.88
+    Banzi M. & Shiloh M. (2021) Getting Started With Arduino. Make Community. 256 pages. $19.99
+    Igoe T. (2017) Making Things Talk. 3nd ed. Make Community. 1016 pages. $24.16
+  Raspberry Pi
+    Danny Staple D. (2021) Learn Robotics Programming. Python. 2nd ed. Packt Publishing. 602 pages. $18.22
+    Timmons-Brown M. (2019) Learn Robotics with Raspberry Pi. No Starch Press. 240 pages. $15.89
+    Tavasalkar D. (2019) Hands-On Robotics Programming with C++. Packt Publishing. 487 pages. $22.25
+    Brombach L. (2021) Practical Robotics in C++. BPB Publications. 508 pages. $10.55
+    Molloy D. (A2016). Exploring Raspberry Pi. Wiley. 650 pages. $21.00
+
+DevOps
+  Hodson R. (2014) Ry's Git Tutorial. RyPress. 207 pages. Kindle Unlimited
+  Van Winkle L. (2019) Hands-On Network Programming with C. Packt Publishing. 614 pages. $16.15
+  Burns B., Beda J. & Hightower K. (2019) Kubernetes: Up and Running. 2nd ed. O'Reilly Media. 318 pages. $31.83
+  Sayfan G. (2020) Mastering Kubernetes. 3rd ed. Packt Publishing. 642 pages. $23.04
+  Kane S. P. & Matthias K. (2018) Docker Up & Running. 2nd ed. 433 pages. $11.22
+  Kolodin D. (2019) Hands-On Microservices with Rust. Packt Publishing. 522 pages. $25.43
+  Chou E., Kennedy M. & Whaley W. (2020). Mastering Python Networking. 3rd ed. 657 pages. $23.04
+  Burns S. (2019) Hands-On Network Programming with C# and .NET Core. Packt Publishing. 825 pages. $18.22
+  Edelman J., Lowe S. S. & Oswalt M. (2018). Network Programmability and Automation. O'Reilly Media. 586 pages. $32.85
+  Ortega J. M. (2021) Mastering Python for Networking and Security. 2nd ed. Packt Publishing. 538 page. $18.22
+
+Programming
+  Go
+    Bodner J. (2021) Learning Go. O'Reilly Media. 454 pages. $39.00
+    Cox-Buday K. (2017) Concurrency in Go. O'Reilly Media. 240 pages. $32.85
+    Raiturkar J. (2018) Hands-On Software Architecture with Golang. Packt Publishing. 502 pages. $31.79 
+    Tsoukalos M. (2019) Mastering Go. 2nd ed. 798 pages. Packt Publishing. $38.15
+    Guerrieri A. (2019) Hands-On System Programming with Go. Packt Publishing. 817 pages. $22.25
+    Kommadi B. (Author) Learn Data Structures and Algorithms with Golang. Packt Publishing. 595 pages. $22.25
+  Lua
+    Szauer G. (2018) Lua Quick Start Guide. Packt Publishing. 202 pages. $19.07
+  Smalltalk
+    https://www.gnu.org/software/smalltalk/manual/html_node/index.html#Top
+    https://learnxinyminutes.com/docs/smalltalk/
+    Liu C. (2000). Smalltalk, Objects, and Design. iUniverse. 312 pages. 
+  Haskell
+    Hutton G. (2016) Programming in Haskell. 2nd ed. Cambridge University Press. 320 pages. $22.37
+    O'Sullivan B. (2008) Real World Haskell. O'Reilly Media. 712 pages. Have ($10.35)
+    Marlow S. (2013) Parallel and Concurrent Programming in Haskell. O'Reilly MEdia. 475 pages. Have ($31.26)
+  Smalltalk
+    Brauer J. (2015) Programming Smalltalk. Springer Vieweg. 624 pages. $17.31
+  Kotlin
+    Fazio M. (2021) Kotlin and Android Development featuring Jetpack. Pragmatic Bookshelf. 446 pages. $32.85
+    Samuel S., Bocutiu S. (2019) Learn Kotlin Programming. 2nd ed. Packt Publishing. 514 pages. $16.15
+    Ebel N. (2019) Mastering Kotlin. Packt Publishing. 436 pages. $18.22
+    M. A. Castiblanco Torres (2018) Learning Concurrency in Kotlin. Packt Publishing. 266 pages. $23.73
+  V
+    Kumar Rao N. P. (2021) Getting Started with V Programming. Packt Publishing. 408 pages. $28.18
+  Python
+    Lott S. F. & Phillips D. (2021) Python Object-Oriented Programming. Packt Publishing. 4th ed. 714 pages. $18.22
+    Jaworski M. & Ziadé T. (2021) Expert Python Programming. 4th ed. Packt Publishing. 630 pages. $18.22
+    Gift N. et al. Python for DevOps. O'Reilly Media. 508 pages. $39.00
+    Romano F. & Heinrich Kruger H. (2021) Learn Python Programming. 3rd ed. Packt Publishing. 552 pages. $30.52
+    Anaya M. (2021) Clean Code in Python. 2nd ed. 422 pages. $22.25
+    Percival H. & Gregory B. (2020) Architecture Patterns with Python. O'Reilly Media. 375 pages. $40.80
+    Ayeva K. & Kasampalis S. (2018) Mastering Python Design Patterns. 2nd ed. 358 pages. $23.73
+    Dennis A. (2021) Python Advanced Guide. 45 pages. Kindle Unlimited.
+  C#
+    Price M. J. (2021) C# 10 and .NET 6 – Modern Cross-Platform Development. 6th ed. Packt Publishing. 824 pages. $31.71
+    Baptista G. & Abbruzzese F. (2022) Software Architecture with C# 10 and .NET 6. 3nd ed. 714 pages. $28.08
+    Hallal J. (2021) Solution Architecture with .NET. Packt Publishing. 238 pages. $26.99
+    Albahari J. (2021) C# 10 in a Nutshell. O'Reilly Media. 1497/1060 pages. $16.57. March 8, 2022
+
+  C
+    Amini K. (2019) Extreme C. Packt Publishing. 824 pages. $23.04
+    Persson J-B. (2021) Linux System Programming Techniques. Packt Publishing. 432 pages. $18.22
+  C++
+    Grigoryan V. & Shunguang W. (2020) Expert C++. Packt Publishing. 608 pages. $18.22
+    G. Pikus F. G. (2019) Hands-On Design Patterns with C++. Packt Publishing. 512 pages. $23.24
+    Alankus G. et al. (2019) Advanced C++. Packt Publishing. 1036 pages. $18.22
+    Swaminathan J. (2017) Mastering C++ Programming. Packt Publishing. 384 pages. $33.06
+    Quinn R. (2020) Advanced C++ Programming Cookbook. Packt Publishing. 454 pages. $18.22
+    Andrist B., Sehr V. & Garney B. (2020) C++ High Performance. 2nd ed. Packt Publishing. 540 pages. $23.04
+    Marius Bancila M. (2020) Modern C++ Programming Cookbook. 2nd ed. Packt Publishing. 893 pages. $30.20
+    Bancila M. (2018) The Modern C++ Challenge. Packt Publishing. 330 pages. $18.22
+    Quinn R. (2018) Hands-On System Programming with C++. Packt Publishing. 554 pages. $31.79
+    Andrist B, Sehr V. & Garney B. (2020) C++ High Performance. Packt Publishing. 2nd ed. 540 pages. $23.04
+    Vaticone O. (2020) C++ System Programming Cookbook. Packt Publishing. 294 pages. $16.15
+    Ostrowski A., Gaczkowski P. (2021) Software Architecture with C++. Packt Publishing. 540 pages. $33.08
+  Java
+    Loy M., Niemeyer R. & Leuck D. (2020) Learning Java. 5th ed. O'Reilly Media. 848 pages. $15.53. History
+    Evans B. J. & Flanagan D. (2018) Java in a Nutshell. 7th ed. O'Reilly Media. 760 pages. $13.20
+    Sharan K. & Davis A. L. (2021) Beginning Java 17 Fundamentals. 3rd ed. Apress. 1033 pages. $15.53
+    Sharan K. & Späth P. (2021) More Java 17. 3rd ed. Apress. 1214 pages. $18.10
+    Chin S. et al. (2019) The Definitive Guide to Modern Java Clients with JavaFX. Apress. 812 pages. $10.67
+    Jog M. (2019) Java 9.0 To 13.0 New Features. BPB Publications. 262 pages. $10.55
+    Smiley J. (2021) Learn to Program with Java JDK 15.0. Smiley Publishing. 723 pages. Kinle Unlimited
+    Telang T. (2020) Quick Reference Java 17 and Beyond. 130 pages. Kindle Unlimited
+    Grinev S. (2021) Mastering JavaFX 10. Packt Publishing. 270 pages. $23.73
+    Kmetiuk A. (2018) Mastering Functional Programming with Scala. Packt Publishing. 380 pages. $31.79
+  JavaScript
+    Flanagan D. (2020) JavaScript: The Definitive Guide. 7th ed. O'Reilly Media. 808 pages. $15.53
+    Parker D. (2015) JavaScript with Promises. O'Reilly Media. 125 pages. $13.77
+    Cherny B. (2019) Programming TypeScript. O'Reilly Media. 393 pages. $32.85
+  Databases
+    Beaulieu A. (2020) Learning SQL. O'Reilly Media. 532 pages. $13.20
+    Grippa V. M. & Kuzmichev S. (2021) Learning MySQL. 2nd ed. O'Reilly Media. 1102 pages. $39.00
+    Bradshaw S., Brazil E. & Chodorow K. (2019) MongoDB: The Definitive Guide. 3rd ed. O'Reilly Media. 624 pages. $39.00
+    Copeland R. (2013) MongoDB Applied Design Patterns. O'Reilly Media. 244 pages. $7.76
+  PHP
+    Tatroe K. & MacIntyre P. (2020) Programming PHP. 4th ed. O'Reilly Media. 739 pages. $39.00
+    Nixon R. (2021) Learning PHP, MySQL & JavaScript. 6th ed. O'Reilly Media. 826 pages. $39.00
+  Angular
+    De Sanctis V. (2021) ASP.NET Core 5 and Angular. 4th ed. Packt Publishing. 746 pages. $18.22
+    Bampakos A. & Deeleman P. (2020) Learning Angular. 3rd ed. Packt Publishing. 430 pages. $16.15
+    Freeman A. (2020) Pro Angular 9. 4th ed. Apress. 1367 pages. $18.10
+    Seshadri S. (2018) Angular: Up and Running: Learning Angular. O'Reilly Media. 314 pages. $32.85
+  React
+   Banks  A. & Porcello E. (2020) Learning React. 2nd ed. O'Rielly Media. 310 pages. $12.87
+   Stefanov S. (2021) React: Up & Running. 2nd ed. O'Reilly Media. 362 pages. $32.85
+  Vue
+    Macrae C. (2018) Vue.js: Up and Running. O'Reilly Media. 262 pages. $25.96
+  TypeScript
+    Nathan Rozentals N. (2021) Mastering TypeScript. 4th ed. Packt Publishing. 538 pages. $23.04
+    Cherny B. (2019) Programming TypeScript. O'Reilly Media. 393 pages. $32.85
+  Fullstack
+    Nixon R. (2021) Learning PHP, MySQL & JavaScript. 6th ed. O'Reilly Media. 826 pages. $39.00
+    Choi D. (2020) Full-Stack React, TypeScript, and NodeFormat. Packt Publishing. 648 pages. $23.73
+    Bampakos A. and Deeleman P. (2020) Learning Angular. 3rd ed. Packt Publishing. 430 pages. $16.15
+    Dan Vanderkam D. (2019) Effective TypeScript O'Reillt Media. 266 pages. $8.80
+    James M. (2019) The Programmer’s Guide To Theory. I/O Press. 228 pages. Kindle Umlimited
+    Elliot I. (2019) Just JavaScript: An Idiomatic Approach. I/O Press. 228 pages. Kindle Unlimited
+    Elliot I. (2019) JavaScript Async: Events, Callbacks, Promises and Async Await. I/O Press. 164 pages. Kinlde Umlimited
+    Elliot I. (2019) Just jQuery: The Core UI. I/O Press. 214 pages. Kindle Unlimited
+    Elliot I. (2019) Just jQuery: Events, Async & Ajax. I/O Press. 214 pages. Kindle Unlimited
+    Elliot I. (2019) JavaScript Bitmap Graphics with Canvas. I/O Press. 316 pages. Kindle Unlimited
+    Lim G. & Correa D. (2021) Beginning MEAN Stack (MongoDB, Express, Angular, Node.js). 210 pages. $10.59
+    Lim G. (2021) Beginning MERN Stack (MongoDB, Express, React, Node.js). 161 pages. Kindle Unlimited
+    Dabit N. (2020). Full Stack Serverless: Modern Application Development with React, AWS, and GraphQL. O'Reilly Media. 224 pages. $35.95
+    Chapin J. & Roberts M. (2020) Programming AWS Lambda. O'Reilly Media. 396 pages. $33.23
+
+TypeScript
+PureScript
+Express.js
+Node.js
+
+Mean: MongdDB, Express, Angular, Node
+Mern: MongdDB, Express, React, Node
+
