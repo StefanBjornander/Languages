@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CjSN7MLP10m11APtVghZlep7TE2ZZNFbyp3B3yHtoaT88obhVQH6vWtRNKletkXSLrtZWt5M95JenqSSB7/SAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stefa\\Documents\\Languages\\FSharp\\HelloFSharp\\HelloFSharp\\HelloFSharp.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stefa\\.nuget\\packages\\fsharp.core\\6.0.4\\fsharp.core.6.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

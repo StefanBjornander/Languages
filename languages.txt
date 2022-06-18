@@ -21,7 +21,7 @@ XXXX*OK: C:\ghcup\bin\ghcup install ghc
       C:\Haskell\ghc-9.0.2-x86_64-unknown-mingw32\bin\runghc ./HelloWorld.hs
       C:\Haskell\ghc-9.0.2-x86_64-unknown-mingw32\bin\ghci
       Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest https://www.haskell.org/ghcup/sh/bootstrap-haskell.ps1 -UseBasicParsing))) -ArgumentList $true
-X*OK: C:\Users\Stefa\AppData\Local\Programs\Julia-1.7.1\bin\julia HelloWorld.ja
+X*OK: C:\Users\Stefa\AppData\Local\Programs\Julia-1.7.3\bin\julia HelloWorld.ja
 X*OK: C:\kotlinc\bin\kotlinc HelloWorld.kt -include-runtime -d HelloWorld.jar
       C:\kotlinc\bin\kotlinc HelloWorld.kt -d HelloWorld.jar
       C:\Java\jdk-17.0.2\bin\java -jar HelloWorld.jar

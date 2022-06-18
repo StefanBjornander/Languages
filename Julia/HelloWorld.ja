@@ -1,1 +1,10 @@
-print("Hello, Julia!")
+print("Hello, ");
+println("Julia!");
+#@printf("Hello, %s!", "World");
+x = 123;
+println("x = $x")
+show(x);
+
+#=
+  Hello
+=#

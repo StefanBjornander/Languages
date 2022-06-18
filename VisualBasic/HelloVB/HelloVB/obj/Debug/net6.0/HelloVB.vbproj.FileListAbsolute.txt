@@ -1,0 +1,15 @@
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\bin\Debug\net6.0\HelloVB.exe
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\bin\Debug\net6.0\HelloVB.deps.json
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\bin\Debug\net6.0\HelloVB.runtimeconfig.json
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\bin\Debug\net6.0\HelloVB.dll
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\bin\Debug\net6.0\HelloVB.pdb
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\obj\Debug\net6.0\HelloVB.vbproj.AssemblyReference.cache
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\obj\Debug\net6.0\HelloVB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\obj\Debug\net6.0\HelloVB.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\obj\Debug\net6.0\HelloVB.AssemblyInfo.vb
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\obj\Debug\net6.0\HelloVB.vbproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\obj\Debug\net6.0\HelloVB.dll
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\obj\Debug\net6.0\refint\HelloVB.dll
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\obj\Debug\net6.0\HelloVB.pdb
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\obj\Debug\net6.0\HelloVB.genruntimeconfig.cache
+C:\Users\stefa\Documents\Languages\VisualBasic\HelloVB\HelloVB\obj\Debug\net6.0\ref\HelloVB.dll

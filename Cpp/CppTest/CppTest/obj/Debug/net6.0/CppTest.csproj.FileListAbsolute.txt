@@ -1,0 +1,5 @@
+C:\Users\stefa\Documents\Languages\Cpp\CppTest\CppTest\obj\Debug\net6.0\CppTest.csproj.AssemblyReference.cache
+C:\Users\stefa\Documents\Languages\Cpp\CppTest\CppTest\obj\Debug\net6.0\CppTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\Languages\Cpp\CppTest\CppTest\obj\Debug\net6.0\CppTest.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\Languages\Cpp\CppTest\CppTest\obj\Debug\net6.0\CppTest.AssemblyInfo.cs
+C:\Users\stefa\Documents\Languages\Cpp\CppTest\CppTest\obj\Debug\net6.0\CppTest.csproj.CoreCompileInputs.cache

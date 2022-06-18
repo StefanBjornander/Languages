@@ -240,7 +240,13 @@ Programming
     Price M. J. (2021) C# 10 and .NET 6 – Modern Cross-Platform Development. 6th ed. Packt Publishing. 824 pages. $31.71
     Baptista G. & Abbruzzese F. (2022) Software Architecture with C# 10 and .NET 6. 3nd ed. 714 pages. $28.08
     Hallal J. (2021) Solution Architecture with .NET. Packt Publishing. 238 pages. $26.99
+    Marcotte C.-H. (2022) An Atypical ASP.NET Core 6 Design Patterns Guide. 2nd ed. Packt Publishing. 678 pages
     Albahari J. (2021) C# 10 in a Nutshell. O'Reilly Media. 1497/1060 pages. $16.57. March 8, 2022
+
+  ASP.Net
+    De Sanctis V. (2022) ASP.NET Core 6 and Angular. 5th ed. Packt Publishing
+    Rippon C. (2021) ASP.NET Core 5 and React. 2nd ed. Packt Publishing
+    Basilan Duldulao D. (2021) ASP.NET Core and Vue.js. Packt Publishing
 
   C
     Amini K. (2019) Extreme C. Packt Publishing. 824 pages. $23.04
@@ -258,6 +264,8 @@ Programming
     Andrist B, Sehr V. & Garney B. (2020) C++ High Performance. Packt Publishing. 2nd ed. 540 pages. $23.04
     Vaticone O. (2020) C++ System Programming Cookbook. Packt Publishing. 294 pages. $16.15
     Ostrowski A., Gaczkowski P. (2021) Software Architecture with C++. Packt Publishing. 540 pages. $33.08
+    Pikus F. G (2021) The Art of Writing Efficient Programs. Packt Publishing
+
   Java
     Loy M., Niemeyer R. & Leuck D. (2020) Learning Java. 5th ed. O'Reilly Media. 848 pages. $15.53. History
     Evans B. J. & Flanagan D. (2018) Java in a Nutshell. 7th ed. O'Reilly Media. 760 pages. $13.20
@@ -282,6 +290,7 @@ Programming
     Tatroe K. & MacIntyre P. (2020) Programming PHP. 4th ed. O'Reilly Media. 739 pages. $39.00
     Nixon R. (2021) Learning PHP, MySQL & JavaScript. 6th ed. O'Reilly Media. 826 pages. $39.00
   Angular
+    ADO .Net
     De Sanctis V. (2021) ASP.NET Core 5 and Angular. 4th ed. Packt Publishing. 746 pages. $18.22
     Bampakos A. & Deeleman P. (2020) Learning Angular. 3rd ed. Packt Publishing. 430 pages. $16.15
     Freeman A. (2020) Pro Angular 9. 4th ed. Apress. 1367 pages. $18.10

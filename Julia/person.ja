@@ -1,0 +1,20 @@
+abstract type Person
+end
+
+struct Student <: Person
+  m_name :: String
+  m_university :: String
+  Student(name :: String, university :: String) = new(name, university)
+end
+
+struct Employee <: Person
+  m_name :: String
+  m_company :: String
+  Employee(name :: String, company :: String) = new(name, company)
+end
+
+s = Student("Adam", "Umea")
+println(s)
+
+e = Employee("Bertil", "Volvo")
+print(e)
