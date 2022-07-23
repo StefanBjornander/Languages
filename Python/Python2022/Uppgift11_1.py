@@ -3,5 +3,5 @@ while True:
     name = input('Name: ')
     if name == '':
         break
-    f.write(name)
+    f.write(name + '\n')
 f.close()
