@@ -1,1 +1,2 @@
-print('Hello, Python!');
+# -*- coding: UTF-8 -*-
+print('Hello, Pythonä!');

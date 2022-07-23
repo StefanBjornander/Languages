@@ -111,8 +111,6 @@ type Map<'KeyType,'ValueType> =
   | EmptyMap
   | RestMap of ('KeyType * 'ValueType) * Map<'KeyType,'ValueType>
 
-exception MapError of string
-
 let rec put key value map =
   putX key value EmptyMap map
 

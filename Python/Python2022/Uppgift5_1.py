@@ -1,0 +1,1 @@
+print('\u03C0 \N{UMBRELLA} \u03A0 \u265A \u265B')
