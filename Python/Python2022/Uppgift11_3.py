@@ -1,17 +1,15 @@
-name = input('Name: ')
+f = open('loggfil', 'r')
+max_time = 0
 
-try:
-    f = open(name, 'r')
+for line in f:
+    if line.strip() != '':
+        list = line.split(' ')
+        name = list[0]
+        time = sum(int(x) for x in list[1:] if True) # list comprehension, page 104
 
-    lines = 0
-    comments = 0
+        if max_time == 0 or time > max_time:
+            max_name = name
+            max_time = time
 
-    for s in f:
-        lines += 1
-        if '#' in s:
-            comments += 1
-    f.close()
-
-    print(f'{100 * comments / lines:.2f}%')
-except FileNotFoundError:
-    print(f'Cannot open "{name}".')
+print(max_name, max_time, 'minuter')
+f.close()

@@ -1,18 +1,27 @@
-g_timmar = 0
-g_minuter = 0
-g_temperatur = 0
+list = []
 
 def observation(timmar, minuter, temperatur):
-    g_timmar = timmar
-    g_minuter = minuter
-    g_temperatur = temperatur
-    print(g_temperatur)
+    list.append((timmar, minuter, temperatur))
 
 def obs_tim():
-    return g_timmar
+    tim, min, temp = list[-1]
+    return tim
 
 def obs_min():
-    return g_minuter
+    tim, min, temp = list[-1]
+    return min
 
 def obs_temp():
-    return g_temperatur
+    tim, min, temp = list[-1]
+    return temp
+
+tim = int(input('tim: '))
+min = int(input('tim: '))
+temp = int(input('tim: '))
+
+observation(tim, min, temp)
+print('tim', obs_tim())
+print('min', obs_min())
+print('temp', obs_temp())
+
+
